@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: column;
     .dados{
-          padding-top: 6.2em;
+          padding-top: 6em;
           padding-left:2.5em;
           }
     .nome_datadevalidade{
@@ -30,11 +30,49 @@
       }
     }
    }
-
 }
 
 
-
 /* Desktop */
+@media(min-width: 376px){
+  .cards{
+    color: white;
+    min-height: 100vh;
+    background-image: url(../../assets/card-logo.svg), url(../../assets/bg-card-front.png), url(../../assets/bg-card-back.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 3em,18em 10em, 18em 10em;
+    background-position: 15em 9em, 14em 8em, 18em 20em ;
 
+    .cardback{
+      padding-top: 6.4em;
+      padding-left: 16em;
+    }
+
+    .cardfront{
+      display: flex;
+      flex-direction: column;
+
+      .dados{
+            padding-top: 6em;
+            padding-left:16em;
+
+            h1{
+              font-size: 22px;
+            }
+            }
+      .nome_datadevalidade{
+        display: flex;
+        flex-direction: row;
+
+
+        .nome, .datadevalidade{
+          margin-right: 7em;
+          margin-top: 2em;
+          font-size: 14px;
+        }
+      }
+     }
+  }
+
+}
 
