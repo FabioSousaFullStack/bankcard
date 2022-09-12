@@ -1,0 +1,15 @@
+form{
+  display: flex;
+  flex-direction: column;
+  label{
+    padding: 1em 0;
+  }
+}
+
+@media(min-width: 376px){
+  .formulario{
+    width: 50vw;
+    height: 100vh;
+    margin-top: 30%;
+  }
+}

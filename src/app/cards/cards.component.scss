@@ -1,6 +1,7 @@
 .cards{
   color: white;
-  min-height: 100vh;
+  min-height: 55vh;
+  min-width: 100vw;
   background-image: url(../../assets/card-logo.svg), url(../../assets/bg-card-front.png), url(../../assets/bg-card-back.png);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: 3em,16em 10em, 16em 10em;
@@ -37,6 +38,7 @@
 @media(min-width: 376px){
   .cards{
     color: white;
+    min-width: 50vw;
     min-height: 100vh;
     background-image: url(../../assets/card-logo.svg), url(../../assets/bg-card-front.png), url(../../assets/bg-card-back.png);
     background-repeat: no-repeat, no-repeat, no-repeat;

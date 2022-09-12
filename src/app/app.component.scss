@@ -1,4 +1,12 @@
+section{
+  display: flex;
+  flex-direction: column;
+}
 
+@media(min-width: 376px){
+  section{
+   display: flex;
+   flex-direction: row;
+  }
 
-
-
+}
