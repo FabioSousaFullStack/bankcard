@@ -45,7 +45,13 @@
 
     .cardback{
       padding-top: 6.4em;
-      padding-left: 16em;
+      padding-left: 1em;
+
+      .cvv{
+        position: absolute;
+        top: 24.4em;
+        left: 32em;
+      }
     }
 
     .cardfront{
@@ -53,8 +59,9 @@
       flex-direction: column;
 
       .dados{
-            padding-top: 6em;
-            padding-left:16em;
+            position: absolute;
+            top: 7em;
+            left:14em;
 
             h1{
               font-size: 22px;
