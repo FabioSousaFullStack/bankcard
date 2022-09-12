@@ -1,15 +1,65 @@
-form{
+form {
+  font-size: 14px;
+  margin: 0 1em;
   display: flex;
   flex-direction: column;
-  label{
+
+  label {
     padding: 1em 0;
+  }
+
+  .data-cvc {
+    display: grid;
+    grid-template-columns: 12em 12em;
+
+    .data,
+    .cvc {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+    }
+  }
+
+  .dadoscard {
+    width: 22em;
+    height: 1.5em;
+    padding: .5em;
+  }
+
+  .dadoscard_data_cvc {
+
+    width: 10em;
+    height: 2em;
+    text-align: center;
+  }
+
+  .botao {
+    background-color: rgb(47, 18, 47);
+    color: rgb(255, 255, 255);
+    width: 23em;
+    height: 2.5em;
+    margin-top: 1em;
+    border-radius: 8px;
   }
 }
 
-@media(min-width: 376px){
-  .formulario{
+
+@media(min-width: 376px) {
+  .formulario {
     width: 50vw;
-    height: 100vh;
     margin-top: 30%;
+  }
+
+  .dadoscard {
+    width: 20em;
+    height: 2em;
+    padding: .5em;
+  }
+
+  .dadoscard_data_cvc {
+    width: 10em;
+    height: 2em;
+    text-align: center;
   }
 }

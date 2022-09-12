@@ -1,17 +1,26 @@
 <div class="formulario">
 <form>
   <label>Coloque seu nome no cartão</label>
-  <input type="text" />
+  <input class="dadoscard" type="text" />
 
   <label>Coloque o número do cartão</label>
-  <input type="text" />
+  <input class="dadoscard" type="number" />
 
-  <label>Data que expira</label>
-    <input type="date" />
+  <div class="data-cvc">
 
+    <div class="data">
+  <label >Data que expira</label>
+    <input class="dadoscard_data_cvc" type="date" />
+  </div>
+
+  <div class="cvc">
   <label>cvc</label>
-    <input type="number" />
-<button >Enviar dados</button>
+    <input class="dadoscard_data_cvc" type="number" />
+  </div>
+
+  </div>
+
+<button class="botao" >Confirmar</button>
 </form>
 </div>
 
