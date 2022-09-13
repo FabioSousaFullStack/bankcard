@@ -1,10 +1,9 @@
 <section>
 <div class="card">
-<app-cards></app-cards>
+<app-cards [preencherFormulario]="dadoscartao"></app-cards>
 </div>
 
 <div class="formulario">
 <app-formulario (aoPreencherFormulario)="preencherForulario($event)"></app-formulario>
 </div>
-<p>{{nome}}</p>
 </section>

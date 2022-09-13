@@ -10,6 +10,7 @@
   .cardback{
     padding-top: 6.4em;
     padding-left: 16em;
+
   }
 
   .cardfront{
@@ -17,18 +18,27 @@
     flex-direction: column;
     .dados{
           padding-top: 6em;
-          padding-left:2.5em;
-          }
-    .nome_datadevalidade{
-      display: flex;
-      flex-direction: row;
+          padding-left:1.5em;
 
+    .numeroDoCartao{
+      font-size: 22px;
+      position: absolute;
+      top: 11em;
+      left: 2em;
+    }
+    .nome{
+      position: absolute;
+      top: 20em;
+      left: 3em;
+      font-size: 14px;
+     }
+     .datadevalidade{
+      position: absolute;
+      top: 20em;
+      left: 16em;
+      font-size: 14px;
+     }
 
-      .nome, .datadevalidade{
-        margin-right: 7em;
-        margin-top: 2em;
-        font-size: 14px;
-      }
     }
    }
 }
@@ -49,7 +59,7 @@
       padding-top: 6.4em;
       padding-left: 1em;
 
-      .cvv{
+      .cvc{
         position: absolute;
         top: 24.4em;
         left: 32em;
@@ -61,27 +71,22 @@
       flex-direction: column;
 
       .dados{
-            position: absolute;
-            top: 7em;
-            left:14em;
-
-            h1{
-              font-size: 22px;
-            }
-            }
-      .nome_datadevalidade{
-        display: flex;
-        flex-direction: row;
-
-
-        .nome, .datadevalidade{
-          margin-right: 7em;
-          margin-top: 2em;
-          font-size: 14px;
+        .numeroDoCartao{
+          font-size: 22px;
+          font-weight: 500;
+          left: 13em;
+          top: 11.5em;
+        }
+        .nome{
+          left: 20em;
+          top: 21em;
+        }
+        .datadevalidade{
+          left: 34em;
+          top: 21em;
         }
       }
+
      }
   }
-
 }
-

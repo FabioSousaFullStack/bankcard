@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import {FormularioComponent} from '../formulario/formulario.component'
 
 @Component({
@@ -7,6 +7,9 @@ import {FormularioComponent} from '../formulario/formulario.component'
   styleUrls: ['./cards.component.scss']
 })
 export class CardsComponent implements OnInit {
+
+  @Input() preencherFormulario: any;
+  
 
   constructor() { }
 
