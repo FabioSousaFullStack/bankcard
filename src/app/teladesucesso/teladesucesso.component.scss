@@ -1,3 +1,11 @@
+
+.img, h1, p, .botao{
+  text-align: center;
+  margin: 1em;
+}
+
+
+@media(min-width: 376px){
 .img{
   margin-left: 15em;
   margin-top: 12em;
@@ -28,4 +36,5 @@ p{
 
 
   }
+}
 }
