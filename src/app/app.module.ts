@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardsComponent } from './cards/cards.component';
 import { FormularioComponent } from './formulario/formulario.component';
+import { TeladesucessoComponent } from './teladesucesso/teladesucesso.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardsComponent,
-    FormularioComponent
+    FormularioComponent,
+    TeladesucessoComponent
   ],
   imports: [
     BrowserModule,

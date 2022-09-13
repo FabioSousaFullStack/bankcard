@@ -1,9 +1,15 @@
 <section>
-<div class="card">
-<app-cards [preencherFormulario]="dadoscartao"></app-cards>
-</div>
+  <div class="card">
+    <app-cards [preencherFormulario]="dadoscartao"></app-cards>
+  </div>
 
-<div class="formulario">
-<app-formulario (aoPreencherFormulario)="preencherForulario($event)"></app-formulario>
-</div>
+  <div class="teladesucesso">
+    <app-teladesucesso></app-teladesucesso>
+  </div>
+
+  <!-- <div class="formulario">
+    <app-formulario
+      (aoPreencherFormulario)="preencherForulario($event)"
+    ></app-formulario>
+  </div> -->
 </section>
