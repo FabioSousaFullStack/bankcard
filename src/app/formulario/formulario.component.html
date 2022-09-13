@@ -1,26 +1,26 @@
 <div class="formulario">
-<form>
-  <label>Coloque seu nome no cartão</label>
-  <input class="dadoscard" type="text" />
+<form class="form" (ngSubmit)="visualizar()">
+  <label for="nome">Coloque seu nome no cartão</label>
+  <input id="nome" class="dadoscard" type="text" [(ngModel)]="nome" name="nome"/>
 
-  <label>Coloque o número do cartão</label>
-  <input class="dadoscard" type="number" />
+  <label for="numeroDoCartao">Coloque o número do cartão</label>
+  <input id="numeroDoCartao" class="dadoscard" type="number" [(ngModel)]="numeroDoCartao" name="numeroDoCartao" />
 
   <div class="data-cvc">
 
     <div class="data">
-  <label >Data que expira</label>
-    <input class="dadoscard_data_cvc" type="date" />
+  <label for="data" >Data que expira</label>
+    <input id="data" class="dadoscard_data_cvc" type="text" [(ngModel)]="data" name="data"  />
   </div>
 
   <div class="cvc">
-  <label>cvc</label>
-    <input class="dadoscard_data_cvc" type="number" />
+  <label for="cvc">cvc</label>
+    <input id="cvc" class="dadoscard_data_cvc" type="number" [(ngModel)]="cvc" name="cvc" />
   </div>
 
   </div>
 
-<button class="botao" >Confirmar</button>
+<button type="submit" class="botao" >Confirmar</button>
 </form>
 </div>
 

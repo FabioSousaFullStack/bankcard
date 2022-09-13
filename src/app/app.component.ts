@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bankcardapp';
+  nome:any;
+  numeroDoCartao: any;
+  data: any;
+  cvc: any;
+
+  preencherForulario($event: { nome: any; numeroDoCartao: any; data: any; cvc: any; }){
+    this.nome = $event.nome;
+    this.numeroDoCartao = $event.numeroDoCartao;
+    this.data = $event.data;
+    this.cvc= $event.cvc;
+
+  }
 }
