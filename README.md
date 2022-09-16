@@ -11,5 +11,4 @@
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-## Overview
-Projeto em andamento, 
+
