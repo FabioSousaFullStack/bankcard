@@ -11,4 +11,7 @@
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
+@@ Projeto
+Bank Card é um projeto desenvolvido em angular.
+
 
